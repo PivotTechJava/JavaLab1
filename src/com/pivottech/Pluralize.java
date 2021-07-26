@@ -8,8 +8,6 @@ public class Pluralize {
             System.out.println("Count: " + i);
         }
 
-        while(true){
-            System.out.println("Test");
+      
         }
     }
-}
