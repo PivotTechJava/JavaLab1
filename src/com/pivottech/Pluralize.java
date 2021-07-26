@@ -7,9 +7,5 @@ public class Pluralize {
         for(int i = 0; i < 9; i++) {
             System.out.println("Count: " + i);
         }
-
-        while(true){
-            System.out.println("Test");
-        }
     }
 }
