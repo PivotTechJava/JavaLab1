@@ -1,7 +1,12 @@
 package com.pivottech;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 public class Clock {
-    public static void main(String[] args) {
-        System.out.println("Java entry 3");
-    }
+    LocalDateTime  now = LocalDateTime.now();
+    int hour = now.getHour();
+    int minute = now.getMinute();
+    int second = now.getSecond();
+
 }
