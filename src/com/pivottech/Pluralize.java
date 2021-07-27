@@ -3,13 +3,19 @@ package com.pivottech;
 public class Pluralize {
 
     public static void main(String[] args) {
-	// write your code here
-        for(int i = 0; i < 9; i++) {
-            System.out.println("Count: " + i);
-        }
+        int dogCount = 1;
+        System.out.println("I own " + dogCount + " "+ pluralize("dog", dogCount) + ".");
+        int catCount = 2;
+        System.out.println("I own " + catCount + " "+ pluralize("cat", catCount) + ".");
+        int turtleCount = 0;
+        System.out.println("I own " + turtleCount + " "+ pluralize("turtle", turtleCount) + ".");
+    }
 
-        while(true){
-            System.out.println("Test");
+      public static String pluralize (String single, int count) {
+        if (count > 1 )
+        {
+            single = (single + "s");
         }
+        return single;
     }
 }
